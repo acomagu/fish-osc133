@@ -7,5 +7,5 @@ This is used by modern terminal emulators to provide functions such as folding, 
 ## Installation
 
 ```fish
-$ fisher install acomagu/fish-ocs133
+$ fisher install acomagu/fish-osc133
 ```
