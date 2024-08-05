@@ -48,7 +48,7 @@ end
 function _osc133_setup --on-event fish_prompt
     functions -e (status current-function)
 
-    functions -c fish_prompt _fishprompt_saved_prompt
+    functions -q _fishprompt_saved_prompt || functions -c fish_prompt _fishprompt_saved_prompt
 
     function fish_prompt
         set _fishprompt_disp_count (math $_fishprompt_disp_count + 1)
