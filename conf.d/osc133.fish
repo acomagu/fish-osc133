@@ -1,7 +1,7 @@
 # Based on https://gitlab.freedesktop.org/Per_Bothner/specifications/-/blob/master/proposals/prompts-data/shell-integration.fish
 
 if not status --is-interactive
-    return
+    exit
 end
 
 set -g _fishprompt_aid "fish"$fish_pid
